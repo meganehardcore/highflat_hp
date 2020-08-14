@@ -1,0 +1,230 @@
+@import "compass";
+@import "var";
+
+.base {
+  background: $gry;
+  color: $blk;
+}
+
+.container {
+  background: $wht;
+  padding: 0;
+}
+
+.head {
+  border-bottom: 1px solid #aaa;
+  padding: 3rem 3rem 5rem 3rem;
+}
+
+.mv {
+  /* メインビジュアル画像 */
+  background: url("/resources/img/");
+}
+
+.companyname {
+  font-size: 6.25rem;
+}
+
+.navcontainer {
+  background: $wht;
+  font-size: 1.25rem;
+
+  a {
+    color: $grn;
+
+    &:hover {
+      background: $grn;
+      color: $wht;
+    }
+  }
+}
+
+.mainnav {
+
+  & > li {
+    & > a {
+      border-right: 1px solid #aaa;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+
+    &:first-child {
+      & > a {
+        border-left: 1px solid #aaa;
+      }
+    }
+  }
+}
+
+.subnav {
+  font-size: 1.125rem;
+  margin-top: 0.6rem;
+
+  & > li {
+    border-bottom: 1px dotted #aaa;
+
+    &:last-child {
+      border: none;
+    }
+
+    & > a {
+      color: #aaa;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  }
+}
+
+.secondhead {
+  border-bottom: 1px solid #aaa;
+  color: $grn;
+  font-size: 4.675rem;
+  margin: 5rem 15rem 1rem 15rem;
+  padding-bottom: 1rem;
+}
+
+.abouthead {
+  font-size: 3.75rem;
+  margin-bottom: 7.5rem;
+
+  & > span {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.thirdhead {
+  font-size: 3.75rem;
+  margin-bottom: 1.5rem;
+
+  & > span {
+    display: block;
+    font-size: 2rem;
+  }
+}
+
+.maintext {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 3rem;
+
+  &.eng {
+    color: $grn;
+  }
+}
+
+.intronav {
+  font-size: 4.675rem;
+  margin-bottom: 1.5rem;
+  padding: 0 4rem;
+
+  & > span {
+    &:last-child {
+      border-bottom: 1px solid #aaa;
+      border-top: 1px solid #aaa;
+      color: #aaa;
+      font-size: 1rem;
+      margin-left: 1.5rem;
+      padding: 0.5rem 2rem;
+    }
+  }
+}
+
+.photonav {
+  border-bottom: 1rem solid $grn;
+  border-top: 1rem solid $grn;
+  margin: 0 0 2rem;
+
+  & > li {
+    height: 15rem;
+    padding: 0;
+
+    & > a {
+      background: rgba(100, 100, 100, 0.75);
+      color: $wht;
+      font-size: 1.75rem;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+/* introductionのナビゲーション背景 */
+.introduction {
+  .photonav {
+
+    /* company */
+    &:nth-of-type(1) {
+      & > li {
+
+        /* vision */
+        &:nth-of-type(1) {
+          background: url("/resources/img/");
+        }
+
+        /* profile */
+        &:nth-of-type(2) {
+          background: url("/resources/img/");
+        }
+
+        /* view */
+        &:nth-of-type(3) {
+          background: url("/resources/img/");
+        }
+      }
+    }
+
+    /* business */
+    &:nth-of-type(2) {
+      & > li {
+
+        /* system development */
+        &:nth-of-type(1) {
+          background: url("/resources/img/");
+        }
+
+        /* engineering service */
+        &:nth-of-type(2) {
+          background: url("/resources/img/");
+        }
+      }
+    }
+
+    /* member */
+    &:nth-of-type(3) {
+      & > li {
+
+        /* introduction */
+        &:nth-of-type(1) {
+          background: url("/resources/img/");
+        }
+
+        /* event */
+        &:nth-of-type(2) {
+          background: url("/resources/img/");
+        }
+      }
+    }
+
+    /* recruit */
+    &:nth-of-type(4) {
+      & > li {
+
+        /* recruitment */
+        &:nth-of-type(1) {
+          background: url("/resources/img/");
+        }
+
+        /* personality */
+        &:nth-of-type(2) {
+          background: url("/resources/img/");
+        }
+
+        /* entry */
+        &:nth-of-type(3) {
+          background: url("/resources/img/");
+        }
+      }
+    }
+  }
+}
