@@ -37,65 +37,88 @@
 .subnav > li > a { color: #aaa; padding-bottom: 0; padding-top: 0; }
 
 /* line 78, ../scss/main.scss */
+.contents { margin-bottom: 10rem; }
+
+/* line 82, ../scss/main.scss */
 .secondhead { border-bottom: 1px solid #aaa; color: #bdbf92; font-size: 4.675rem; margin: 5rem 15rem 1rem 15rem; padding-bottom: 1rem; }
 
-/* line 86, ../scss/main.scss */
-.abouthead { font-size: 3.75rem; margin-bottom: 7.5rem; }
 /* line 90, ../scss/main.scss */
+.abouthead { font-size: 3.75rem; margin-bottom: 7.5rem; }
+/* line 94, ../scss/main.scss */
 .abouthead > span { font-size: 1.5rem; margin-right: 1.5rem; }
 
-/* line 96, ../scss/main.scss */
-.thirdhead { font-size: 3.75rem; margin-bottom: 1.5rem; }
 /* line 100, ../scss/main.scss */
-.thirdhead > span { display: block; font-size: 2rem; }
+.thirdhead { font-size: 3.75rem; margin-bottom: 1.75rem; }
+/* line 104, ../scss/main.scss */
+.thirdhead span { display: block; font-size: 2rem; margin-top: 1rem; }
 
-/* line 106, ../scss/main.scss */
+/* line 110, ../scss/main.scss */
+.fourthhead { background: #bdbf92; color: #fff; line-height: 2.5rem; margin: 0 20rem 1.75rem 20rem; }
+
+/* line 117, ../scss/main.scss */
 .maintext { font-size: 1.25rem; line-height: 2.5rem; margin-bottom: 3rem; }
-/* line 111, ../scss/main.scss */
+/* line 122, ../scss/main.scss */
 .maintext.eng { color: #bdbf92; }
 
-/* line 116, ../scss/main.scss */
-.intronav { font-size: 4.675rem; margin-bottom: 1.5rem; padding: 0 4rem; }
-/* line 122, ../scss/main.scss */
-.intronav > span:last-child { border-bottom: 1px solid #aaa; border-top: 1px solid #aaa; color: #aaa; font-size: 1rem; margin-left: 1.5rem; padding: 0.5rem 2rem; }
+/* line 127, ../scss/main.scss */
+.basiclist { font-size: 1.25rem; line-height: 2.5rem; list-style-type: none; }
 
 /* line 133, ../scss/main.scss */
+.intronav { font-size: 4.675rem; margin-bottom: 1.5rem; padding: 0 4rem; }
+/* line 139, ../scss/main.scss */
+.intronav span:last-child { border-bottom: 1px solid #aaa; border-top: 1px solid #aaa; color: #aaa; font-size: 1rem; margin-left: 1.5rem; padding: 0.5rem 2rem; }
+
+/* line 150, ../scss/main.scss */
+.servicelist { font-size: 1.25rem; margin: 0 10rem; }
+/* line 154, ../scss/main.scss */
+.servicelist li { list-style-type: none; margin-bottom: 4rem; width: 50%; }
+/* line 159, ../scss/main.scss */
+.servicelist li span { display: block; }
+
+/* line 165, ../scss/main.scss */
 .photonav { border-bottom: 1rem solid #bdbf92; border-top: 1rem solid #bdbf92; margin: 0 0 2rem; }
-/* line 138, ../scss/main.scss */
-.photonav > li { height: 15rem; padding: 0; }
-/* line 142, ../scss/main.scss */
-.photonav > li > a { background: rgba(100, 100, 100, 0.75); color: #fff; font-size: 1.75rem; height: 100%; width: 100%; }
+/* line 170, ../scss/main.scss */
+.photonav li { height: 15rem; padding: 0; }
+/* line 174, ../scss/main.scss */
+.photonav li a { background: rgba(100, 100, 100, 0.75); color: #fff; font-size: 1.75rem; height: 100%; width: 100%; }
 
 /* introductionのナビゲーション背景 */
-/* line 154, ../scss/main.scss */
+/* line 186, ../scss/main.scss */
 .introduction .photonav { /* company */ /* business */ /* member */ /* recruit */ }
-/* line 158, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) > li { /* vision */ /* profile */ /* view */ }
-/* line 161, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) > li:nth-of-type(1) { background: url("/resources/img/"); }
-/* line 166, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) > li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 171, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) > li:nth-of-type(3) { background: url("/resources/img/"); }
-/* line 179, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) > li { /* system development */ /* engineering service */ }
-/* line 182, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) > li:nth-of-type(1) { background: url("/resources/img/"); }
-/* line 187, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) > li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 195, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) > li { /* introduction */ /* event */ }
+/* line 190, ../scss/main.scss */
+.introduction .photonav:nth-of-type(1) li { /* vision */ /* profile */ /* view */ }
+/* line 193, ../scss/main.scss */
+.introduction .photonav:nth-of-type(1) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 198, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) > li:nth-of-type(1) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(1) li:nth-of-type(2) { background: url("/resources/img/"); }
 /* line 203, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) > li:nth-of-type(2) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(1) li:nth-of-type(3) { background: url("/resources/img/"); }
 /* line 211, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) > li { /* recruitment */ /* personality */ /* entry */ }
+.introduction .photonav:nth-of-type(2) li { /* system development */ /* engineering service */ }
 /* line 214, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) > li:nth-of-type(1) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(2) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 219, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) > li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 224, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) > li:nth-of-type(3) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(2) li:nth-of-type(2) { background: url("/resources/img/"); }
+/* line 227, ../scss/main.scss */
+.introduction .photonav:nth-of-type(3) li { /* introduction */ /* event */ }
+/* line 230, ../scss/main.scss */
+.introduction .photonav:nth-of-type(3) li:nth-of-type(1) { background: url("/resources/img/"); }
+/* line 235, ../scss/main.scss */
+.introduction .photonav:nth-of-type(3) li:nth-of-type(2) { background: url("/resources/img/"); }
+/* line 243, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li { /* recruitment */ /* personality */ /* entry */ }
+/* line 246, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li:nth-of-type(1) { background: url("/resources/img/"); }
+/* line 251, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li:nth-of-type(2) { background: url("/resources/img/"); }
+/* line 256, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li:nth-of-type(3) { background: url("/resources/img/"); }
+
+/* line 264, ../scss/main.scss */
+.profilelist { font-size: 1.1rem; line-height: 2rem; }
+/* line 268, ../scss/main.scss */
+.profilelist dt { font-weight: normal; }
+/* line 272, ../scss/main.scss */
+.profilelist dd { margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
