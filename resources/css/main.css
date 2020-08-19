@@ -10,115 +10,118 @@
 .head { border-bottom: 1px solid #aaa; padding: 3rem 3rem 5rem 3rem; }
 
 /* line 19, ../scss/main.scss */
-.mv { /* メインビジュアル画像 */ background: url("/resources/img/"); }
+.mv { /* メインビジュアル画像 */ background: url("../img/main.png") no-repeat; margin: -3rem -3rem 0; }
 
-/* line 24, ../scss/main.scss */
-.companyname { font-size: 6.25rem; }
+/* line 25, ../scss/main.scss */
+.companyname { font-size: 6.25rem; padding: 37.5rem 3rem 0; }
 
-/* line 28, ../scss/main.scss */
-.navcontainer { background: #fff; font-size: 1.25rem; }
-/* line 32, ../scss/main.scss */
-.navcontainer a { color: #bdbf92; }
+/* line 30, ../scss/main.scss */
+.navcontainer { /* background: $wht; */ font-size: 1.25rem; padding: 0 3rem; }
 /* line 35, ../scss/main.scss */
+.navcontainer a { color: #bdbf92; }
+/* line 38, ../scss/main.scss */
 .navcontainer a:hover { background: #bdbf92; color: #fff; }
 
-/* line 45, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 .mainnav > li > a { border-right: 1px solid #aaa; padding-bottom: 0; padding-top: 0; }
-/* line 52, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 .mainnav > li:first-child > a { border-left: 1px solid #aaa; }
 
-/* line 59, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 .subnav { font-size: 1.125rem; margin-top: 0.6rem; }
-/* line 63, ../scss/main.scss */
-.subnav > li { border-bottom: 1px dotted #aaa; }
 /* line 66, ../scss/main.scss */
+.subnav > li { border-bottom: 1px dotted #aaa; }
+/* line 69, ../scss/main.scss */
 .subnav > li:last-child { border: none; }
-/* line 70, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 .subnav > li > a { color: #aaa; padding-bottom: 0; padding-top: 0; }
 
-/* line 78, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
+.contentsgroup { background: url(../img/contents_bg.png) no-repeat fixed; background-position: -115px top; }
+
+/* line 86, ../scss/main.scss */
 .contents { margin-bottom: 10rem; }
 
-/* line 82, ../scss/main.scss */
-.secondhead { border-bottom: 1px solid #aaa; color: #bdbf92; font-size: 4.675rem; margin: 5rem 15rem 1rem 15rem; padding-bottom: 1rem; }
-
 /* line 90, ../scss/main.scss */
+.secondhead { border-bottom: 1px solid #aaa; color: #bdbf92; font-size: 4.675rem; margin: 0 15rem 1rem 15rem; padding: 5rem 0 1rem; }
+
+/* line 98, ../scss/main.scss */
 .abouthead { font-size: 3.75rem; margin-bottom: 7.5rem; }
-/* line 94, ../scss/main.scss */
+/* line 102, ../scss/main.scss */
 .abouthead > span { font-size: 1.5rem; margin-right: 1.5rem; }
 
-/* line 100, ../scss/main.scss */
+/* line 108, ../scss/main.scss */
 .thirdhead { font-size: 3.75rem; margin-bottom: 1.75rem; }
-/* line 104, ../scss/main.scss */
+/* line 112, ../scss/main.scss */
 .thirdhead span { display: block; font-size: 2rem; margin-top: 1rem; }
 
-/* line 110, ../scss/main.scss */
+/* line 118, ../scss/main.scss */
 .fourthhead { background: #bdbf92; color: #fff; line-height: 2.5rem; margin: 0 20rem 1.75rem 20rem; }
 
-/* line 117, ../scss/main.scss */
+/* line 125, ../scss/main.scss */
 .maintext { font-size: 1.25rem; line-height: 2.5rem; margin-bottom: 3rem; }
-/* line 122, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 .maintext.eng { color: #bdbf92; }
 
-/* line 127, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 .basiclist { font-size: 1.25rem; line-height: 2.5rem; list-style-type: none; }
 
-/* line 133, ../scss/main.scss */
+/* line 141, ../scss/main.scss */
 .intronav { font-size: 4.675rem; margin-bottom: 1.5rem; padding: 0 4rem; }
-/* line 139, ../scss/main.scss */
+/* line 147, ../scss/main.scss */
 .intronav span:last-child { border-bottom: 1px solid #aaa; border-top: 1px solid #aaa; color: #aaa; font-size: 1rem; margin-left: 1.5rem; padding: 0.5rem 2rem; }
 
-/* line 150, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .servicelist { font-size: 1.25rem; margin: 0 10rem; }
-/* line 154, ../scss/main.scss */
+/* line 162, ../scss/main.scss */
 .servicelist li { list-style-type: none; margin-bottom: 4rem; width: 50%; }
-/* line 159, ../scss/main.scss */
+/* line 167, ../scss/main.scss */
 .servicelist li span { display: block; }
 
-/* line 165, ../scss/main.scss */
+/* line 173, ../scss/main.scss */
 .photonav { border-bottom: 1rem solid #bdbf92; border-top: 1rem solid #bdbf92; margin: 0 0 2rem; }
-/* line 170, ../scss/main.scss */
+/* line 178, ../scss/main.scss */
 .photonav li { height: 15rem; padding: 0; }
-/* line 174, ../scss/main.scss */
+/* line 182, ../scss/main.scss */
 .photonav li a { background: rgba(100, 100, 100, 0.75); color: #fff; font-size: 1.75rem; height: 100%; width: 100%; }
 
 /* introductionのナビゲーション背景 */
-/* line 186, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 .introduction .photonav { /* company */ /* business */ /* member */ /* recruit */ }
-/* line 190, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) li { /* vision */ /* profile */ /* view */ }
-/* line 193, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 198, ../scss/main.scss */
+.introduction .photonav:nth-of-type(1) li { /* vision */ /* profile */ /* view */ }
+/* line 201, ../scss/main.scss */
+.introduction .photonav:nth-of-type(1) li:nth-of-type(1) { background: url("/resources/img/"); }
+/* line 206, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 203, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) li:nth-of-type(3) { background: url("/resources/img/"); }
 /* line 211, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) li { /* system development */ /* engineering service */ }
-/* line 214, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) li:nth-of-type(1) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(1) li:nth-of-type(3) { background: url("/resources/img/"); }
 /* line 219, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) li:nth-of-type(2) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(2) li { /* system development */ /* engineering service */ }
+/* line 222, ../scss/main.scss */
+.introduction .photonav:nth-of-type(2) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 227, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) li { /* introduction */ /* event */ }
-/* line 230, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) li:nth-of-type(1) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(2) li:nth-of-type(2) { background: url("/resources/img/"); }
 /* line 235, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) li:nth-of-type(2) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(3) li { /* introduction */ /* event */ }
+/* line 238, ../scss/main.scss */
+.introduction .photonav:nth-of-type(3) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 243, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) li { /* recruitment */ /* personality */ /* entry */ }
-/* line 246, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) li:nth-of-type(1) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(3) li:nth-of-type(2) { background: url("/resources/img/"); }
 /* line 251, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li { /* recruitment */ /* personality */ /* entry */ }
+/* line 254, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li:nth-of-type(1) { background: url("/resources/img/"); }
+/* line 259, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 256, ../scss/main.scss */
+/* line 264, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li:nth-of-type(3) { background: url("/resources/img/"); }
 
-/* line 264, ../scss/main.scss */
-.profilelist { font-size: 1.1rem; line-height: 2rem; }
-/* line 268, ../scss/main.scss */
-.profilelist dt { font-weight: normal; }
 /* line 272, ../scss/main.scss */
+.profilelist { font-size: 1.1rem; line-height: 2rem; }
+/* line 276, ../scss/main.scss */
+.profilelist dt { font-weight: normal; }
+/* line 280, ../scss/main.scss */
 .profilelist dd { margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

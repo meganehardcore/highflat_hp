@@ -18,16 +18,19 @@
 
 .mv {
   /* メインビジュアル画像 */
-  background: url("/resources/img/");
+  background: url("../img/main.png") no-repeat;
+  margin: -3rem -3rem 0;
 }
 
 .companyname {
   font-size: 6.25rem;
+  padding: 37.5rem 3rem 0;
 }
 
 .navcontainer {
-  background: $wht;
+  /* background: $wht; */
   font-size: 1.25rem;
+  padding: 0 3rem;
 
   a {
     color: $grn;
@@ -75,6 +78,11 @@
   }
 }
 
+.contentsgroup {
+  background: url(../img/contents_bg.png) no-repeat fixed;
+  background-position: -115px top;
+}
+
 .contents {
   margin-bottom: 10rem;
 }
@@ -83,8 +91,8 @@
   border-bottom: 1px solid #aaa;
   color: $grn;
   font-size: 4.675rem;
-  margin: 5rem 15rem 1rem 15rem;
-  padding-bottom: 1rem;
+  margin: 0 15rem 1rem 15rem;
+  padding: 5rem 0 1rem;
 }
 
 .abouthead {
