@@ -1,127 +1,170 @@
 @charset "UTF-8";
 /* 色管理 */
 /* line 4, ../scss/main.scss */
-.base { background: #eee; color: #333; }
+html { font-size: 62.5%; }
 
-/* line 9, ../scss/main.scss */
-.container { background: #fff; padding: 0; }
-
-/* line 14, ../scss/main.scss */
-.head { border-bottom: 1px solid #aaa; padding: 3rem 3rem 5rem 3rem; }
+/*1.6rem=16px*/
+/* line 10, ../scss/main.scss */
+.base { background: #ddddde; color: #231815; font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif; font-feature-settings: "palt"; font-weight: 100; letter-spacing: 0.25rem; }
 
 /* line 19, ../scss/main.scss */
-.mv { /* メインビジュアル画像 */ background: url("../img/main.png") no-repeat; margin: -3rem -3rem 0; }
+.container { background: #fff; padding: 0; }
 
-/* line 25, ../scss/main.scss */
-.companyname { font-size: 6.25rem; padding: 37.5rem 3rem 0; }
+/* line 24, ../scss/main.scss */
+.head { /* メインビジュアル画像 */ background: url("../img/main.png") no-repeat; border-bottom: 1px solid #d3d3d3; padding: 0 4rem; }
 
-/* line 30, ../scss/main.scss */
-.navcontainer { /* background: $wht; */ font-size: 1.25rem; padding: 0 3rem; }
-/* line 35, ../scss/main.scss */
-.navcontainer a { color: #bdbf92; }
+/* line 31, ../scss/main.scss */
+.companyname { font-size: 9rem; line-height: 7.2rem; margin: 0 0 3rem; padding: 63rem 0 0; }
+
 /* line 38, ../scss/main.scss */
-.navcontainer a:hover { background: #bdbf92; color: #fff; }
+.navcontainer { font-size: 2rem; letter-spacing: 0; margin: 0 0 3rem; }
+/* line 43, ../scss/main.scss */
+.navcontainer a { color: #a1a978; }
+/* line 46, ../scss/main.scss */
+.navcontainer a:hover { background: #a1a978; color: #fff; }
 
-/* line 48, ../scss/main.scss */
-.mainnav > li > a { border-right: 1px solid #aaa; padding-bottom: 0; padding-top: 0; }
-/* line 55, ../scss/main.scss */
-.mainnav > li:first-child > a { border-left: 1px solid #aaa; }
-
-/* line 62, ../scss/main.scss */
-.subnav { font-size: 1.125rem; margin-top: 0.6rem; }
-/* line 66, ../scss/main.scss */
-.subnav > li { border-bottom: 1px dotted #aaa; }
+/* line 54, ../scss/main.scss */
+.mainnav > li { border-right: 1px solid #d3d3d3; padding: 0 0.2rem; position: relative; /*
+- メインメニューホバーテキスト指定
+- ドロップダウンマージン調整
+*/ }
+/* line 59, ../scss/main.scss */
+.mainnav > li > a { line-height: 2rem; padding: 1rem 3rem; }
+/* line 63, ../scss/main.scss */
+.mainnav > li > a:hover { font-size: 0; }
 /* line 69, ../scss/main.scss */
-.subnav > li:last-child { border: none; }
-/* line 73, ../scss/main.scss */
-.subnav > li > a { color: #aaa; padding-bottom: 0; padding-top: 0; }
-
-/* line 81, ../scss/main.scss */
-.contentsgroup { background: url(../img/contents_bg.png) no-repeat fixed; background-position: -115px top; }
-
+.mainnav > li:hover ul { display: flex; }
+/* line 78, ../scss/main.scss */
+.mainnav > li:nth-of-type(1) { border-left: 1px solid #d3d3d3; }
+/* line 82, ../scss/main.scss */
+.mainnav > li:nth-of-type(1) > a:hover { line-height: 1.2rem; padding: 1.1rem 2rem 1rem 3rem; }
 /* line 86, ../scss/main.scss */
+.mainnav > li:nth-of-type(1) > a:hover:before { content: "会社案内"; font-size: 1.4rem; letter-spacing: 1rem; position: relative; top: 1px; }
+/* line 98, ../scss/main.scss */
+.mainnav > li:nth-of-type(1) ul li a { line-height: 1.1rem; }
+/* line 107, ../scss/main.scss */
+.mainnav > li:nth-of-type(2) > a:hover { line-height: 1.2rem; padding: 1.1rem 1.8rem 1rem 2.75rem; }
+/* line 111, ../scss/main.scss */
+.mainnav > li:nth-of-type(2) > a:hover:before { content: "事業案内"; font-size: 1.4rem; letter-spacing: 1rem; position: relative; top: 1px; }
+/* line 124, ../scss/main.scss */
+.mainnav > li:nth-of-type(3) > a:hover { line-height: 1.2rem; padding: 1.1rem 0.3rem 1rem 0.25rem; }
+/* line 128, ../scss/main.scss */
+.mainnav > li:nth-of-type(3) > a:hover:before { content: "社員メンバー"; font-size: 1.4rem; letter-spacing: 0.9rem; position: relative; top: 1px; left: 4px; }
+/* line 141, ../scss/main.scss */
+.mainnav > li:nth-of-type(3) ul li a { line-height: 1.1rem; }
+/* line 150, ../scss/main.scss */
+.mainnav > li:nth-of-type(4) > a:hover { line-height: 1.2rem; padding: 1.1rem 0.8rem 1rem 1.8rem; }
+/* line 154, ../scss/main.scss */
+.mainnav > li:nth-of-type(4) > a:hover:before { content: "採用情報"; font-size: 1.4rem; letter-spacing: 1rem; position: relative; top: 1px; }
+/* line 166, ../scss/main.scss */
+.mainnav > li:nth-of-type(4) ul li a { line-height: 1.1rem; }
+/* line 175, ../scss/main.scss */
+.mainnav > li:nth-of-type(5) > a:hover { line-height: 1.2rem; padding: 1.1rem 0 1rem; }
+/* line 179, ../scss/main.scss */
+.mainnav > li:nth-of-type(5) > a:hover:before { content: "お問い合わせ"; font-size: 1.4rem; letter-spacing: 0.8rem; position: relative; top: 1px; left: 4px; }
+
+/* line 193, ../scss/main.scss */
+.subnav { background: #fff; display: none; font-size: 1.6rem; position: absolute; width: 100%; z-index: 100; }
+/* line 201, ../scss/main.scss */
+.subnav > li { border-bottom: 1px dotted #d3d3d3; }
+/* line 204, ../scss/main.scss */
+.subnav > li:last-child { border: none; }
+/* line 208, ../scss/main.scss */
+.subnav > li > a { color: #d3d3d3; padding: 1rem 0; }
+
+/* line 215, ../scss/main.scss */
+.sns { margin: 1rem 0 8rem; }
+/* line 218, ../scss/main.scss */
+.sns a { margin-left: 1rem; padding: 0; }
+/* line 223, ../scss/main.scss */
+.sns a:hover img { opacity: 0.5; }
+
+/* line 230, ../scss/main.scss */
+.contentsgroup { background: url(../img/contents_bg.png) no-repeat fixed; background-position: -11.5rem top; }
+
+/* line 235, ../scss/main.scss */
 .contents { margin-bottom: 10rem; }
 
-/* line 90, ../scss/main.scss */
-.secondhead { border-bottom: 1px solid #aaa; color: #bdbf92; font-size: 4.675rem; margin: 0 15rem 1rem 15rem; padding: 5rem 0 1rem; }
+/* line 239, ../scss/main.scss */
+.secondhead { border-bottom: 1px solid #d3d3d3; color: #a1a978; font-size: 6rem; letter-spacing: 1rem; line-height: 5rem; margin: 0 20rem 2.5rem; padding: 10rem 0 2.5rem; }
 
-/* line 98, ../scss/main.scss */
-.abouthead { font-size: 3.75rem; margin-bottom: 7.5rem; }
-/* line 102, ../scss/main.scss */
-.abouthead > span { font-size: 1.5rem; margin-right: 1.5rem; }
+/* line 249, ../scss/main.scss */
+.thirdhead { font-size: 4rem; letter-spacing: 1rem; line-height: 5rem; margin: 0 0 3rem; }
+/* line 255, ../scss/main.scss */
+.thirdhead span { display: block; font-size: 3rem; line-height: 2.8rem; margin: 2.5rem 0 0; }
 
-/* line 108, ../scss/main.scss */
-.thirdhead { font-size: 3.75rem; margin-bottom: 1.75rem; }
-/* line 112, ../scss/main.scss */
-.thirdhead span { display: block; font-size: 2rem; margin-top: 1rem; }
+/* line 263, ../scss/main.scss */
+.fourthhead { background: #a1a978; color: #fff; line-height: 2.5rem; margin: 0 20rem 1.75rem 20rem; }
 
-/* line 118, ../scss/main.scss */
-.fourthhead { background: #bdbf92; color: #fff; line-height: 2.5rem; margin: 0 20rem 1.75rem 20rem; }
+/* line 270, ../scss/main.scss */
+.maintext { font-size: 1.8rem; line-height: 3.6rem; margin-bottom: 4rem; }
+/* line 275, ../scss/main.scss */
+.maintext.eng { color: #a1a978; }
 
-/* line 125, ../scss/main.scss */
-.maintext { font-size: 1.25rem; line-height: 2.5rem; margin-bottom: 3rem; }
-/* line 130, ../scss/main.scss */
-.maintext.eng { color: #bdbf92; }
-
-/* line 135, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 .basiclist { font-size: 1.25rem; line-height: 2.5rem; list-style-type: none; }
 
-/* line 141, ../scss/main.scss */
-.intronav { font-size: 4.675rem; margin-bottom: 1.5rem; padding: 0 4rem; }
-/* line 147, ../scss/main.scss */
-.intronav span:last-child { border-bottom: 1px solid #aaa; border-top: 1px solid #aaa; color: #aaa; font-size: 1rem; margin-left: 1.5rem; padding: 0.5rem 2rem; }
+/* line 286, ../scss/main.scss */
+.abouthead { font-size: 4rem; letter-spacing: 1rem; line-height: 3rem; margin: 0 0 10rem; }
+/* line 292, ../scss/main.scss */
+.abouthead span { font-size: 2rem; letter-spacing: 0.5rem; margin: 0 2rem 0 0; }
 
-/* line 158, ../scss/main.scss */
+/* line 299, ../scss/main.scss */
+.intronav { font-size: 8rem; letter-spacing: 1rem; line-height: 5.5rem; margin: 0 0 4rem; padding: 0 0 0 6rem; }
+/* line 307, ../scss/main.scss */
+.intronav span:last-child { border-bottom: 1px solid #808080; border-top: 1px solid #808080; color: #808080; font-size: 1.6rem; letter-spacing: 0.5rem; line-height: 1.6rem; margin: 0 0 0 3rem; padding: 1rem 3rem; }
+
+/* line 320, ../scss/main.scss */
 .servicelist { font-size: 1.25rem; margin: 0 10rem; }
-/* line 162, ../scss/main.scss */
+/* line 324, ../scss/main.scss */
 .servicelist li { list-style-type: none; margin-bottom: 4rem; width: 50%; }
-/* line 167, ../scss/main.scss */
+/* line 329, ../scss/main.scss */
 .servicelist li span { display: block; }
 
-/* line 173, ../scss/main.scss */
-.photonav { border-bottom: 1rem solid #bdbf92; border-top: 1rem solid #bdbf92; margin: 0 0 2rem; }
-/* line 178, ../scss/main.scss */
+/* line 335, ../scss/main.scss */
+.photonav { border-bottom: 1rem solid #a1a978; border-top: 1rem solid #a1a978; margin: 0 0 2rem; }
+/* line 340, ../scss/main.scss */
 .photonav li { height: 15rem; padding: 0; }
-/* line 182, ../scss/main.scss */
+/* line 344, ../scss/main.scss */
 .photonav li a { background: rgba(100, 100, 100, 0.75); color: #fff; font-size: 1.75rem; height: 100%; width: 100%; }
 
 /* introductionのナビゲーション背景 */
-/* line 194, ../scss/main.scss */
+/* line 356, ../scss/main.scss */
 .introduction .photonav { /* company */ /* business */ /* member */ /* recruit */ }
-/* line 198, ../scss/main.scss */
+/* line 360, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li { /* vision */ /* profile */ /* view */ }
-/* line 201, ../scss/main.scss */
+/* line 363, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li:nth-of-type(1) { background: url("/resources/img/"); }
-/* line 206, ../scss/main.scss */
+/* line 368, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 211, ../scss/main.scss */
+/* line 373, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li:nth-of-type(3) { background: url("/resources/img/"); }
-/* line 219, ../scss/main.scss */
+/* line 381, ../scss/main.scss */
 .introduction .photonav:nth-of-type(2) li { /* system development */ /* engineering service */ }
-/* line 222, ../scss/main.scss */
+/* line 384, ../scss/main.scss */
 .introduction .photonav:nth-of-type(2) li:nth-of-type(1) { background: url("/resources/img/"); }
-/* line 227, ../scss/main.scss */
+/* line 389, ../scss/main.scss */
 .introduction .photonav:nth-of-type(2) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 235, ../scss/main.scss */
+/* line 397, ../scss/main.scss */
 .introduction .photonav:nth-of-type(3) li { /* introduction */ /* event */ }
-/* line 238, ../scss/main.scss */
+/* line 400, ../scss/main.scss */
 .introduction .photonav:nth-of-type(3) li:nth-of-type(1) { background: url("/resources/img/"); }
-/* line 243, ../scss/main.scss */
+/* line 405, ../scss/main.scss */
 .introduction .photonav:nth-of-type(3) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 251, ../scss/main.scss */
+/* line 413, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li { /* recruitment */ /* personality */ /* entry */ }
-/* line 254, ../scss/main.scss */
+/* line 416, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li:nth-of-type(1) { background: url("/resources/img/"); }
-/* line 259, ../scss/main.scss */
+/* line 421, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 264, ../scss/main.scss */
+/* line 426, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li:nth-of-type(3) { background: url("/resources/img/"); }
 
-/* line 272, ../scss/main.scss */
+/* line 434, ../scss/main.scss */
 .profilelist { font-size: 1.1rem; line-height: 2rem; }
-/* line 276, ../scss/main.scss */
+/* line 438, ../scss/main.scss */
 .profilelist dt { font-weight: normal; }
-/* line 280, ../scss/main.scss */
+/* line 442, ../scss/main.scss */
 .profilelist dd { margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
