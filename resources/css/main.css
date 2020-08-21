@@ -33,254 +33,256 @@ html { font-size: 62.5%; }
 /* line 63, ../scss/main.scss */
 .mainnav > li > a:hover { font-size: 0; }
 /* line 69, ../scss/main.scss */
-.mainnav > li:hover ul { display: flex; margin: 0 0 0 -0.1rem; }
-/* line 79, ../scss/main.scss */
+.mainnav > li:hover ul { display: flex; margin: 0; width: calc(100% - 0.4rem); }
+/* line 80, ../scss/main.scss */
 .mainnav > li:nth-of-type(1) { border-left: 1px solid #d3d3d3; }
-/* line 83, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .mainnav > li:nth-of-type(1) > a:hover { line-height: 1.3rem; padding: 1.1rem 2rem 1rem 3rem; }
-/* line 87, ../scss/main.scss */
+/* line 88, ../scss/main.scss */
 .mainnav > li:nth-of-type(1) > a:hover:before { content: "会社案内"; font-size: 1.4rem; letter-spacing: 1rem; position: relative; top: 1px; }
-/* line 99, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .mainnav > li:nth-of-type(1) ul li a { line-height: 1.1rem; }
-/* line 108, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .mainnav > li:nth-of-type(2) > a:hover { line-height: 1.3rem; padding: 1.1rem 1.8rem 1rem 2.75rem; }
-/* line 112, ../scss/main.scss */
+/* line 113, ../scss/main.scss */
 .mainnav > li:nth-of-type(2) > a:hover:before { content: "事業案内"; font-size: 1.4rem; letter-spacing: 1rem; position: relative; top: 1px; }
-/* line 125, ../scss/main.scss */
+/* line 126, ../scss/main.scss */
 .mainnav > li:nth-of-type(3) > a:hover { line-height: 1.3rem; padding: 1.1rem 0.3rem 1rem 0.25rem; }
-/* line 129, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 .mainnav > li:nth-of-type(3) > a:hover:before { content: "社員メンバー"; font-size: 1.4rem; letter-spacing: 0.9rem; position: relative; top: 1px; left: 4px; }
-/* line 142, ../scss/main.scss */
+/* line 143, ../scss/main.scss */
 .mainnav > li:nth-of-type(3) ul li a { line-height: 1.1rem; }
-/* line 151, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 .mainnav > li:nth-of-type(4) > a:hover { line-height: 1.3rem; padding: 1.1rem 0.8rem 1rem 1.8rem; }
-/* line 155, ../scss/main.scss */
+/* line 156, ../scss/main.scss */
 .mainnav > li:nth-of-type(4) > a:hover:before { content: "採用情報"; font-size: 1.4rem; letter-spacing: 1rem; position: relative; top: 1px; }
-/* line 167, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 .mainnav > li:nth-of-type(4) ul li a { line-height: 1.1rem; }
-/* line 176, ../scss/main.scss */
+/* line 177, ../scss/main.scss */
 .mainnav > li:nth-of-type(5) > a:hover { line-height: 1.3rem; padding: 1.1rem 0 1rem; }
-/* line 180, ../scss/main.scss */
+/* line 181, ../scss/main.scss */
 .mainnav > li:nth-of-type(5) > a:hover:before { content: "お問い合わせ"; font-size: 1.4rem; letter-spacing: 0.8rem; position: relative; top: 1px; left: 4px; }
 
-/* line 194, ../scss/main.scss */
+/* line 195, ../scss/main.scss */
 .subnav { background: #fff; display: none; font-size: 1.6rem; position: absolute; width: 100%; z-index: 100; }
-/* line 202, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 .subnav > li { border-bottom: 1px dotted #d3d3d3; }
-/* line 205, ../scss/main.scss */
+/* line 206, ../scss/main.scss */
 .subnav > li:last-child { border: none; }
-/* line 209, ../scss/main.scss */
+/* line 210, ../scss/main.scss */
 .subnav > li > a { color: #808080; padding: 1rem 0; }
 
-/* line 216, ../scss/main.scss */
+/* line 217, ../scss/main.scss */
 .sns { margin: 1rem 0 8rem; }
-/* line 219, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
 .sns a { margin-left: 1rem; padding: 0; }
 /* line 224, ../scss/main.scss */
+.sns a img { width: 100%; }
+/* line 229, ../scss/main.scss */
 .sns a:hover img { opacity: 0.5; }
 
-/* line 231, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 .contentsgroup { background: url(../img/contents_bg.png) no-repeat fixed; background-position: center top; }
 
-/* line 236, ../scss/main.scss */
+/* line 241, ../scss/main.scss */
 .contents { margin-bottom: 10rem; }
 
-/* line 240, ../scss/main.scss */
+/* line 245, ../scss/main.scss */
 .secondhead { border-bottom: 1px solid #d3d3d3; color: #a1a978; font-size: 6rem; letter-spacing: 1rem; line-height: 5rem; margin: 0 20rem 2.5rem; padding: 10rem 0 2.5rem; }
 
-/* line 250, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 .thirdhead { font-size: 4rem; letter-spacing: 1rem; line-height: 5rem; margin: 0 0 4rem; }
-/* line 256, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 .thirdhead span { display: block; font-size: 3rem; line-height: 2.8rem; margin: 2.5rem 0 0; }
 
-/* line 264, ../scss/main.scss */
+/* line 269, ../scss/main.scss */
 .fourthhead { background: #a1a978; color: #fff; font-size: 2rem; letter-spacing: 1.5rem; line-height: 2rem; margin: 0 35rem 4rem; padding: 0.75rem 0; }
-/* line 273, ../scss/main.scss */
+/* line 278, ../scss/main.scss */
 .fourthhead.brw { background: #7d6853; }
-/* line 277, ../scss/main.scss */
+/* line 282, ../scss/main.scss */
 .fourthhead span { font-size: 1.5rem; vertical-align: top; }
 
-/* line 283, ../scss/main.scss */
-.maintext { font-size: 1.8rem; line-height: 3.6rem; margin-bottom: 4rem; }
 /* line 288, ../scss/main.scss */
+.maintext { font-size: 1.8rem; line-height: 3.6rem; margin-bottom: 4rem; }
+/* line 293, ../scss/main.scss */
 .maintext.eng { color: #a1a978; }
 
-/* line 293, ../scss/main.scss */
+/* line 298, ../scss/main.scss */
 .basiclist { font-size: 1.7rem; line-height: 1.7rem; list-style-type: none; padding: 0; }
-/* line 299, ../scss/main.scss */
+/* line 304, ../scss/main.scss */
 .basiclist li { margin: 0 0 1.7rem; }
 
-/* line 304, ../scss/main.scss */
+/* line 309, ../scss/main.scss */
 .abouthead { font-size: 4rem; letter-spacing: 1rem; line-height: 3rem; margin: 0 0 10rem; }
-/* line 310, ../scss/main.scss */
+/* line 315, ../scss/main.scss */
 .abouthead span { font-size: 2rem; letter-spacing: 0.5rem; margin: 0 2rem 0 0; }
 
-/* line 317, ../scss/main.scss */
+/* line 322, ../scss/main.scss */
 .intronav { font-size: 8rem; letter-spacing: 1rem; line-height: 7rem; margin: 0 0 4rem; padding: 0 0 0 6rem; }
-/* line 325, ../scss/main.scss */
+/* line 330, ../scss/main.scss */
 .intronav span:last-child { border-bottom: 1px solid #808080; border-top: 1px solid #808080; color: #808080; font-size: 1.6rem; letter-spacing: 0.5rem; line-height: 1.6rem; margin: 0 0 0 2rem; padding: 1rem 3rem; }
 
-/* line 338, ../scss/main.scss */
-.photonav { border-bottom: 1.5rem solid #a1a978; border-top: 1.5rem solid #a1a978; margin: 0 0 7rem; }
 /* line 343, ../scss/main.scss */
+.photonav { border-bottom: 1.5rem solid #a1a978; border-top: 1.5rem solid #a1a978; margin: 0 0 7rem; }
+/* line 348, ../scss/main.scss */
 .photonav li { height: 20rem; padding: 0; }
-/* line 347, ../scss/main.scss */
+/* line 352, ../scss/main.scss */
 .photonav li a { background: rgba(100, 100, 100, 0.75); color: #fff; font-size: 3rem; height: 100%; width: 100%; }
 
-/* line 357, ../scss/main.scss */
+/* line 362, ../scss/main.scss */
 .introduction { /* introductionのナビゲーションタイトル調整 */ /* introductionのナビゲーション背景 */ }
-/* line 360, ../scss/main.scss */
-.introduction .intronav { /* company */ /* business */ /* member */ /* recruit */ }
 /* line 365, ../scss/main.scss */
+.introduction .intronav { /* company */ /* business */ /* member */ /* recruit */ }
+/* line 370, ../scss/main.scss */
 .introduction .intronav:nth-of-type(1) span:last-child { position: relative; top: 2rem; }
-/* line 375, ../scss/main.scss */
+/* line 380, ../scss/main.scss */
 .introduction .intronav:nth-of-type(2) span:last-child { position: relative; top: 1rem; }
-/* line 385, ../scss/main.scss */
+/* line 390, ../scss/main.scss */
 .introduction .intronav:nth-of-type(3) span:last-child { position: relative; top: 1rem; }
-/* line 395, ../scss/main.scss */
+/* line 400, ../scss/main.scss */
 .introduction .intronav:nth-of-type(4) span:last-child { position: relative; top: 1rem; }
-/* line 404, ../scss/main.scss */
+/* line 409, ../scss/main.scss */
 .introduction .photonav { /* company */ /* business */ /* member */ /* recruit */ }
-/* line 408, ../scss/main.scss */
+/* line 413, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li { /* vision */ /* profile */ /* view */ }
-/* line 411, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 416, ../scss/main.scss */
-.introduction .photonav:nth-of-type(1) li:nth-of-type(2) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(1) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 421, ../scss/main.scss */
+.introduction .photonav:nth-of-type(1) li:nth-of-type(2) { background: url("/resources/img/"); }
+/* line 426, ../scss/main.scss */
 .introduction .photonav:nth-of-type(1) li:nth-of-type(3) { background: url("/resources/img/"); }
-/* line 429, ../scss/main.scss */
+/* line 434, ../scss/main.scss */
 .introduction .photonav:nth-of-type(2) li { /* system development */ /* engineering service */ }
-/* line 432, ../scss/main.scss */
-.introduction .photonav:nth-of-type(2) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 437, ../scss/main.scss */
+.introduction .photonav:nth-of-type(2) li:nth-of-type(1) { background: url("/resources/img/"); }
+/* line 442, ../scss/main.scss */
 .introduction .photonav:nth-of-type(2) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 445, ../scss/main.scss */
+/* line 450, ../scss/main.scss */
 .introduction .photonav:nth-of-type(3) li { /* introduction */ /* event */ }
-/* line 448, ../scss/main.scss */
-.introduction .photonav:nth-of-type(3) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 453, ../scss/main.scss */
+.introduction .photonav:nth-of-type(3) li:nth-of-type(1) { background: url("/resources/img/"); }
+/* line 458, ../scss/main.scss */
 .introduction .photonav:nth-of-type(3) li:nth-of-type(2) { background: url("/resources/img/"); }
-/* line 461, ../scss/main.scss */
+/* line 466, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li { /* recruitment */ /* personality */ /* entry */ }
-/* line 464, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 469, ../scss/main.scss */
-.introduction .photonav:nth-of-type(4) li:nth-of-type(2) { background: url("/resources/img/"); }
+.introduction .photonav:nth-of-type(4) li:nth-of-type(1) { background: url("/resources/img/"); }
 /* line 474, ../scss/main.scss */
+.introduction .photonav:nth-of-type(4) li:nth-of-type(2) { background: url("/resources/img/"); }
+/* line 479, ../scss/main.scss */
 .introduction .photonav:nth-of-type(4) li:nth-of-type(3) { background: url("/resources/img/"); }
 
-/* line 483, ../scss/main.scss */
+/* line 488, ../scss/main.scss */
 .access iframe { height: 35rem; padding: 0 3rem; width: 100%; }
 
-/* line 490, ../scss/main.scss */
+/* line 495, ../scss/main.scss */
 .photolist { margin: 0; padding: 0; }
-/* line 494, ../scss/main.scss */
+/* line 499, ../scss/main.scss */
 .photolist li { list-style-type: none; margin: 0 0 5rem; }
 
-/* line 500, ../scss/main.scss */
+/* line 505, ../scss/main.scss */
 .servicelist { font-size: 2rem; line-height: 4rem; margin: 0 10rem; padding: 0; }
-/* line 506, ../scss/main.scss */
+/* line 511, ../scss/main.scss */
 .servicelist li { list-style-type: none; width: 50%; }
-/* line 510, ../scss/main.scss */
-.servicelist li span { display: block; margin: 2rem 0 0; }
 /* line 515, ../scss/main.scss */
+.servicelist li span { display: block; margin: 2rem 0 0; }
+/* line 520, ../scss/main.scss */
 .servicelist li:first-child { margin-bottom: 4rem; }
 
-/* line 521, ../scss/main.scss */
-.profilelist { font-size: 1.6rem; letter-spacing: 0.5rem; line-height: 3.2rem; }
 /* line 526, ../scss/main.scss */
+.profilelist { font-size: 1.6rem; letter-spacing: 0.5rem; line-height: 3.2rem; }
+/* line 531, ../scss/main.scss */
 .profilelist dt { font-weight: normal; }
-/* line 530, ../scss/main.scss */
+/* line 535, ../scss/main.scss */
 .profilelist dd { margin-bottom: 0; }
 
-/* line 535, ../scss/main.scss */
+/* line 540, ../scss/main.scss */
 .recruit { background: #fff; margin: 4rem 15rem 0; padding: 2rem; }
 
-/* line 541, ../scss/main.scss */
-.recruithead, .contactformhead { font-size: 2.5rem; font-weight: 700; margin: 0 0 3.5rem; }
 /* line 546, ../scss/main.scss */
+.recruithead, .contactformhead { font-size: 2.5rem; font-weight: 700; margin: 0 0 3.5rem; }
+/* line 551, ../scss/main.scss */
 .recruithead:before, .contactformhead:before { color: #005eae; content: "■"; }
 
-/* line 552, ../scss/main.scss */
+/* line 557, ../scss/main.scss */
 .recruitdetail, .contactform dl { color: #808080; letter-spacing: 0; font-size: 1.2rem; margin: 0; }
-/* line 558, ../scss/main.scss */
-.recruitdetail > dt, .contactform dl > dt { border-bottom: 1px solid #d3d3d3; font-weight: 400; padding: 2rem 0 2rem 1.2rem; }
 /* line 563, ../scss/main.scss */
-.recruitdetail > dt:last-of-type, .contactform dl > dt:last-of-type { border: none; }
+.recruitdetail > dt, .contactform dl > dt { border-bottom: 1px solid #d3d3d3; font-weight: 400; padding: 2rem 0 2rem 1.2rem; }
 /* line 568, ../scss/main.scss */
-.recruitdetail > dd, .contactform dl > dd { border-bottom: 1px solid #d3d3d3; margin: 0; padding: 2rem 0; }
+.recruitdetail > dt:last-of-type, .contactform dl > dt:last-of-type { border: none; }
 /* line 573, ../scss/main.scss */
+.recruitdetail > dd, .contactform dl > dd { border-bottom: 1px solid #d3d3d3; margin: 0; padding: 2rem 0; }
+/* line 578, ../scss/main.scss */
 .recruitdetail > dd:last-of-type, .contactform dl > dd:last-of-type { border: none; }
-/* line 577, ../scss/main.scss */
+/* line 582, ../scss/main.scss */
 .recruitdetail > dd dl, .contactform dl > dd dl { margin: 0; }
-/* line 580, ../scss/main.scss */
-.recruitdetail > dd dl dt, .contactform dl > dd dl dt { font-weight: 400; padding: 0; }
 /* line 585, ../scss/main.scss */
+.recruitdetail > dd dl dt, .contactform dl > dd dl dt { font-weight: 400; padding: 0; }
+/* line 590, ../scss/main.scss */
 .recruitdetail > dd dl dd, .contactform dl > dd dl dd { margin: 0; padding: 0; }
-/* line 592, ../scss/main.scss */
+/* line 597, ../scss/main.scss */
 .recruitdetail small, .contactform dl small { font-size: 1.2rem; }
-/* line 595, ../scss/main.scss */
-.recruitdetail small:before, .contactform dl small:before { content: "※"; }
 /* line 600, ../scss/main.scss */
-.recruitdetail ul, .contactform dl ul { list-style-type: none; }
-/* line 604, ../scss/main.scss */
-.recruitdetail ul li:before, .contactform dl ul li:before { content: "◼"; margin: 0 0.5rem 0 0; }
+.recruitdetail small:before, .contactform dl small:before { content: "※"; }
+/* line 605, ../scss/main.scss */
+.recruitdetail ul, .contactform dl ul { list-style-type: none; margin: 0; padding: 0; }
 /* line 611, ../scss/main.scss */
-.recruitdetail button, .contactform dl button { background: none; border: none; }
-/* line 615, ../scss/main.scss */
-.recruitdetail button a, .contactform dl button a { color: #808080; }
+.recruitdetail ul li:before, .contactform dl ul li:before { content: "◼"; margin: 0 0.5rem 0 0; }
 /* line 618, ../scss/main.scss */
+.recruitdetail button, .contactform dl button { background: none; border: none; }
+/* line 622, ../scss/main.scss */
+.recruitdetail button a, .contactform dl button a { color: #808080; }
+/* line 625, ../scss/main.scss */
 .recruitdetail button a:hover, .contactform dl button a:hover { opacity: 0.5; text-decoration: none; }
 
-/* line 626, ../scss/main.scss */
+/* line 633, ../scss/main.scss */
 .contactform { background: #fff; margin: 0 15rem 8rem; padding: 2rem; }
-/* line 635, ../scss/main.scss */
+/* line 642, ../scss/main.scss */
 .contactform dl dt span { border: 1px solid #005eae; border-radius: 1rem; color: #005eae; font-size: 1rem; font-weight: 700; margin: 0 0 0 0.5rem; padding: 0.1rem 0.5rem; }
-/* line 647, ../scss/main.scss */
+/* line 654, ../scss/main.scss */
 .contactform dl dd .formtext { border: 1px solid #ddddde; border-radius: 0.5rem; color: #808080; font-size: 1.4rem; height: 3rem; padding: 0 0.5rem; }
-/* line 655, ../scss/main.scss */
+/* line 662, ../scss/main.scss */
 .contactform dl dd .formtext:focus, .contactform dl dd .formtext:active { outline: none; }
-/* line 661, ../scss/main.scss */
+/* line 668, ../scss/main.scss */
 .contactform dl dd textarea { border: 1px solid #ddddde; border-radius: 0.5rem; height: 15rem; margin: 0 0 2rem; padding: 0.5rem; width: 90%; }
-/* line 669, ../scss/main.scss */
+/* line 676, ../scss/main.scss */
 .contactform dl dd textarea:focus { outline: none; }
-/* line 674, ../scss/main.scss */
+/* line 681, ../scss/main.scss */
 .contactform dl dd .submit { background: #005eae; border: none; border-radius: 0.5rem; color: yellow; display: block; font-size: 1.5rem; padding: 1.5rem 4.5rem; }
-/* line 683, ../scss/main.scss */
+/* line 690, ../scss/main.scss */
 .contactform dl dd .submit:hover { opacity: 0.5; }
 
-/* line 695, ../scss/main.scss */
+/* line 702, ../scss/main.scss */
 .formtext { font-size: 2.5rem; line-height: 2.5rem; margin: 0 0 3rem; }
 
-/* line 701, ../scss/main.scss */
+/* line 708, ../scss/main.scss */
 address { background: #fff; border: 0.7rem solid #a1a978; padding: 2rem; }
 
-/* line 707, ../scss/main.scss */
+/* line 714, ../scss/main.scss */
 .tel { font-size: 5rem; font-weight: 700; line-height: 5rem; margin: 0 2rem 0 0; }
-/* line 713, ../scss/main.scss */
+/* line 720, ../scss/main.scss */
 .tel a { color: #231815; }
-/* line 716, ../scss/main.scss */
+/* line 723, ../scss/main.scss */
 .tel a:hover { opacity: 0.5; text-decoration: none; }
 
-/* line 723, ../scss/main.scss */
+/* line 730, ../scss/main.scss */
 .mail { background: #edede4; display: block; padding: 1.5rem; }
-/* line 728, ../scss/main.scss */
-.mail a { color: #231815; display: block; font-size: 2.5rem; font-weight: 700; line-height: 2.5rem; }
 /* line 735, ../scss/main.scss */
+.mail a { color: #231815; display: block; font-size: 2.5rem; font-weight: 700; line-height: 2.5rem; }
+/* line 742, ../scss/main.scss */
 .mail a:hover { opacity: 0.5; text-decoration: none; }
 
-/* line 742, ../scss/main.scss */
+/* line 749, ../scss/main.scss */
 .mailtext { display: block; font-size: 1.5rem; font-weight: 700; margin: 0 3rem 0 0; }
 
-/* line 749, ../scss/main.scss */
+/* line 756, ../scss/main.scss */
 .topbutton { background: none; border: none; bottom: 4rem; font-size: 2rem; line-height: 2rem; margin: 2rem 0 0; padding: 0 2rem 0 0; position: sticky; }
-/* line 759, ../scss/main.scss */
+/* line 766, ../scss/main.scss */
 .topbutton a { color: #231815; display: block; text-align: left; }
-/* line 764, ../scss/main.scss */
+/* line 771, ../scss/main.scss */
 .topbutton a:hover { text-decoration: none; }
 
-/* line 770, ../scss/main.scss */
+/* line 777, ../scss/main.scss */
 footer { margin: 0 2rem 0; padding: 0 0 2rem; }
 
 /*# sourceMappingURL=main.css.map */
