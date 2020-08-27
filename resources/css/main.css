@@ -351,42 +351,44 @@ html { font-size: 62.5%; scroll-behavior: smooth; }
 /* line 973, ../scss/main.scss */
 .contact .address { background: #fff; border: 0.7rem solid #7d6853; margin: 0 2rem; padding: 4rem; }
 /* line 979, ../scss/main.scss */
-.contact .address .contactformbtn { background: #7d6853; border: none; border-radius: 0.5rem; font-size: 3rem; line-height: 3rem; margin: 0 0 3rem; padding: 2rem; }
-/* line 988, ../scss/main.scss */
+.contact .address .contactformbtn { background: #7d6853; border: none; border-radius: 0.5rem; box-shadow: 0.4rem 0.4rem 0 0 rgba(0, 0, 0, 0.25); font-size: 3rem; line-height: 3rem; margin: 0 0 3rem; padding: 2rem; }
+/* line 989, ../scss/main.scss */
 .contact .address .contactformbtn:hover { opacity: 0.5; }
-/* line 992, ../scss/main.scss */
-.contact .address .contactformbtn .contactformlink { color: #fff; }
-/* line 995, ../scss/main.scss */
+/* line 993, ../scss/main.scss */
+.contact .address .contactformbtn .contactformlink { color: #fff; font-weight: 700; }
+/* line 997, ../scss/main.scss */
 .contact .address .contactformbtn .contactformlink:hover { text-decoration: none; }
-/* line 1001, ../scss/main.scss */
+/* line 1002, ../scss/main.scss */
+.contact .address .contactformbtn .contactformicn { font-size: 5.5rem; line-height: 1rem; margin-right: 1rem; position: relative; top: 0.5rem; }
+/* line 1011, ../scss/main.scss */
 .contact .address .tel { display: block; font-size: 6rem; font-weight: 700; margin: 0 0 3rem; }
-/* line 1007, ../scss/main.scss */
+/* line 1017, ../scss/main.scss */
 .contact .address .tel .tellink { color: #231815; }
-/* line 1010, ../scss/main.scss */
+/* line 1020, ../scss/main.scss */
 .contact .address .tel .tellink:hover { opacity: 0.5; text-decoration: none; }
-/* line 1015, ../scss/main.scss */
+/* line 1025, ../scss/main.scss */
 .contact .address .tel .tellink:before { background: url(../img/tel_icn.png); background-size: contain; content: ""; display: inline-block; height: 9.3rem; margin: 0 2rem 0 0; vertical-align: bottom; width: 5.1rem; }
-/* line 1028, ../scss/main.scss */
-.contact .address .mail { display: block; }
-/* line 1031, ../scss/main.scss */
-.contact .address .mail .mailtext { display: block; font-size: 1.5rem; font-weight: 700; margin: 0 3rem 0 0; }
 /* line 1038, ../scss/main.scss */
+.contact .address .mail { display: block; }
+/* line 1041, ../scss/main.scss */
+.contact .address .mail .mailtext { display: block; font-size: 1.5rem; font-weight: 700; margin: 0 3rem 0 0; }
+/* line 1048, ../scss/main.scss */
 .contact .address .mail .maillink { color: #231815; display: block; font-size: 4rem; font-weight: 700; }
-/* line 1044, ../scss/main.scss */
+/* line 1054, ../scss/main.scss */
 .contact .address .mail .maillink:hover { opacity: 0.5; text-decoration: none; }
-/* line 1049, ../scss/main.scss */
+/* line 1059, ../scss/main.scss */
 .contact .address .mail .maillink:before { background: url(../img/mail_icn.png); background-size: contain; content: ""; display: inline-block; height: 4.6rem; margin: 0 2rem 0 0; vertical-align: text-bottom; width: 6.3rem; }
 
-/* line 1064, ../scss/main.scss */
+/* line 1074, ../scss/main.scss */
 .topbutton { bottom: 4rem; margin: 0 2rem 0 0; position: sticky; margin-left: calc(100% - 10.3rem); }
-/* line 1070, ../scss/main.scss */
+/* line 1080, ../scss/main.scss */
 .topbutton .topbuttonlink { background: rgba(255, 255, 255, 0.75); border-radius: 0.5rem; height: 7.6rem; margin: 5rem 0 1rem; padding: 1rem; }
-/* line 1077, ../scss/main.scss */
+/* line 1087, ../scss/main.scss */
 .topbutton .topbuttonlink:hover { opacity: 0.5; }
-/* line 1081, ../scss/main.scss */
+/* line 1091, ../scss/main.scss */
 .topbutton .topbuttonlink .topbuttonimg { height: 100%; }
 
-/* line 1087, ../scss/main.scss */
+/* line 1097, ../scss/main.scss */
 .footer { margin: 0 2rem 0; padding: 0 0 6rem; }
 
 /*# sourceMappingURL=main.css.map */
