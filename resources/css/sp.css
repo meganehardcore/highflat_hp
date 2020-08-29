@@ -3,38 +3,90 @@
 @media screen and (max-width: 576px) { /* line 5, ../scss/sp.scss */
   .head { background-size: contain; padding: 2rem; }
   /* line 9, ../scss/sp.scss */
-  .head .companyname { margin: 0 0 1.5rem; padding: 15rem 0 0; }
+  .head .companyname { margin: 0 0 1.5rem; padding: 17rem 0 0; }
   /* line 13, ../scss/sp.scss */
   .head .companyname .companynameimg { width: 50%; }
   /* line 18, ../scss/sp.scss */
   .head .navcontainer { display: none; }
   /* line 22, ../scss/sp.scss */
-  .head .sns { display: none; }
-  /* line 27, ../scss/sp.scss */
-  .background { padding: 5rem 0 0; }
-  /* line 30, ../scss/sp.scss */
-  .background .contents { margin: 0 0 6rem; }
+  .head .sns { margin: 0; }
+  /* line 25, ../scss/sp.scss */
+  .head .sns .snslink { margin-left: 1rem; }
+  /* line 28, ../scss/sp.scss */
+  .head .sns .snslink .snsimg { width: 3rem; }
   /* line 35, ../scss/sp.scss */
-  .secondhead { margin: 0 11.2rem 1.2rem; }
-  /* line 39, ../scss/sp.scss */
-  .thirdhead { height: 6rem; }
-  /* line 42, ../scss/sp.scss */
-  .thirdhead.threeline { height: 8.1rem; }
+  .background { padding: 5rem 0 0; }
+  /* line 38, ../scss/sp.scss */
+  .background .contents { margin: 0 0 6rem; }
+  /* line 43, ../scss/sp.scss */
+  .secondhead { margin: 0 7.5rem 1.2rem; }
   /* line 47, ../scss/sp.scss */
-  .fourthhead { height: 1rem; }
-  /* line 50, ../scss/sp.scss */
-  .fourthhead .fourthheadimg { height: 1rem; }
-  /* line 55, ../scss/sp.scss */
+  .thirdhead { height: 4rem; margin: 0 0 2.2rem; }
+  /* line 51, ../scss/sp.scss */
+  .thirdhead.threeline { height: 6.1rem; }
+  /* line 56, ../scss/sp.scss */
+  .fourthhead { height: 1.4rem; margin: 0 0 3rem; }
+  /* line 60, ../scss/sp.scss */
+  .fourthhead .fourthheadimg { height: 1.4rem; vertical-align: top; }
+  /* line 66, ../scss/sp.scss */
+  .basiclist { font-size: 1.4rem; line-height: 1.4rem; }
+  /* line 70, ../scss/sp.scss */
+  .basiclist .basiclistitem { margin: 0 0 1.4rem; }
+  /* line 75, ../scss/sp.scss */
+  .pointlist { font-size: 1.4rem; line-height: 2.8rem; }
+  /* line 79, ../scss/sp.scss */
+  .pointlist .pointlistitem { text-indent: -1.4rem; padding-left: 0 0 0 1rem; }
+  /* line 85, ../scss/sp.scss */
+  .maintext { font-size: 1.4rem; margin: 0 2rem 2rem; }
+  /* line 90, ../scss/sp.scss */
   .nobreak { display: none; }
-  /* line 59, ../scss/sp.scss */
+  /* line 94, ../scss/sp.scss */
+  .spnone { display: none; }
+  /* line 98, ../scss/sp.scss */
   .photonavhead { height: 3rem; margin: 0 1.8rem 1.5rem; }
-  /* line 64, ../scss/sp.scss */
+  /* line 103, ../scss/sp.scss */
   .photonav { margin: 0 0 3.5rem; }
-  /* line 68, ../scss/sp.scss */
+  /* line 107, ../scss/sp.scss */
+  .googlemap { height: 2rem; }
+  /* line 111, ../scss/sp.scss */
+  .vision { margin: 0 0 5rem; }
+  /* line 115, ../scss/sp.scss */
+  .profile { margin: 0 0 5rem; }
+  /* line 118, ../scss/sp.scss */
+  .profile .profilelist { font-size: 1.4rem; line-height: 2.8rem; margin: 0 2rem; }
+  /* line 125, ../scss/sp.scss */
+  .access { margin: 0 0 5rem; }
+  /* line 128, ../scss/sp.scss */
+  .access .map { margin: 0 2rem 1rem; }
+  /* line 132, ../scss/sp.scss */
+  .access .googlemap { margin: 0 2rem; }
+  /* line 137, ../scss/sp.scss */
+  .office { margin: 0 0 5rem; }
+  /* line 141, ../scss/sp.scss */
+  .systemdev { margin: 0 0 5rem; }
+  /* line 147, ../scss/sp.scss */
+  .engineer .servicelist { font-size: 1.6rem; line-height: 3rem; margin: 0 5rem 0 2rem; }
+  /* line 152, ../scss/sp.scss */
+  .engineer .servicelist .servicelistitem { margin: 0 0 3rem; padding: 0 0 0 3rem; }
+  /* line 156, ../scss/sp.scss */
+  .engineer .servicelist .servicelistitem span { margin: 1rem 0 0; }
+  /* line 163, ../scss/sp.scss */
   .member { display: none; }
-  /* line 72, ../scss/sp.scss */
+  /* line 167, ../scss/sp.scss */
   .intro { display: none; }
-  /* line 76, ../scss/sp.scss */
-  .events { display: none; } }
+  /* line 171, ../scss/sp.scss */
+  .events { display: none; }
+  /* line 175, ../scss/sp.scss */
+  .policy { margin: 0 0 5rem; }
+  /* line 179, ../scss/sp.scss */
+  .recruitment { margin: 0 0 5rem; }
+  /* line 182, ../scss/sp.scss */
+  .recruitment .recruitdetail { font-size: 1.4rem; margin: 0 2rem; padding: 0 2rem; }
+  /* line 187, ../scss/sp.scss */
+  .recruitment .recruitdetail .notes { font-size: 1.4rem; line-height: 1.4rem; }
+  /* line 192, ../scss/sp.scss */
+  .recruitment .recruitdetail .contactbtn { height: 2rem; }
+  /* line 199, ../scss/sp.scss */
+  .contact .contacttext { font-size: 2rem; } }
 
 /*# sourceMappingURL=sp.css.map */
