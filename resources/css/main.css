@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* 色管理 */
 /* line 4, ../scss/main.scss */
-html { font-size: 62.5%; scroll-behavior: smooth; }
+html { font-size: 62.5%; /* scroll-behavior: smooth; */ }
 
 /* 1.6rem=16px */
 /* line 11, ../scss/main.scss */
