@@ -247,71 +247,71 @@ html { font-size: 62.5%; }
 /* line 703, ../scss/main.scss */
 .intro .membercontainer .membericn .membericnimg { width: 100%; }
 /* line 710, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(1):hover .membericnimg { content: url("../img/memberA_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(1):hover { content: url("../img/memberA_icn.png"); }
 /* line 714, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(1):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 717, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(1):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberA_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(1):hover ~ .memberdetail { content: url("../img/memberA_detail.png"); }
 /* line 726, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(2):hover .membericnimg { content: url("../img/memberB_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(2):hover { content: url("../img/memberB_icn.png"); }
 /* line 730, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(2):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 733, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(2):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberB_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(2):hover ~ .memberdetail { content: url("../img/memberB_detail.png"); }
 /* line 742, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(3):hover .membericnimg { content: url("../img/memberC_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(3):hover { content: url("../img/memberC_icn.png"); }
 /* line 746, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(3):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 749, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(3):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberC_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(3):hover ~ .memberdetail { content: url("../img/memberC_detail.png"); }
 /* line 758, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(4):hover .membericnimg { content: url("../img/memberD_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(4):hover { content: url("../img/memberD_icn.png"); }
 /* line 762, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(4):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 765, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(4):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberD_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(4):hover ~ .memberdetail { content: url("../img/memberD_detail.png"); }
 /* line 774, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(5):hover .membericnimg { content: url("../img/memberE_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(5):hover { content: url("../img/memberE_icn.png"); }
 /* line 778, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(5):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 781, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(5):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberE_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(5):hover ~ .memberdetail { content: url("../img/memberE_detail.png"); }
 /* line 790, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(6):hover .membericnimg { content: url("../img/memberF_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(6):hover { content: url("../img/memberF_icn.png"); }
 /* line 794, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(6):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 797, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(6):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberF_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(6):hover ~ .memberdetail { content: url("../img/memberF_detail.png"); }
 /* line 806, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(7):hover .membericnimg { content: url("../img/memberG_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(7):hover { content: url("../img/memberG_icn.png"); }
 /* line 810, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(7):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 813, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(7):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberG_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(7):hover ~ .memberdetail { content: url("../img/memberG_detail.png"); }
 /* line 822, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(8):hover .membericnimg { content: url("../img/memberH_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(8):hover { content: url("../img/memberH_icn.png"); }
 /* line 826, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(8):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 829, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(8):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberH_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(8):hover ~ .memberdetail { content: url("../img/memberH_detail.png"); }
 /* line 838, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(9):hover .membericnimg { content: url("../img/memberI_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(9):hover { content: url("../img/memberI_icn.png"); }
 /* line 842, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(9):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 845, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(9):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberI_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(9):hover ~ .memberdetail { content: url("../img/memberI_detail.png"); }
 /* line 854, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(10):hover .membericnimg { content: url("../img/memberJ_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(10):hover { content: url("../img/memberJ_icn.png"); }
 /* line 858, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(10):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 861, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(10):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberJ_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(10):hover ~ .memberdetail { content: url("../img/memberJ_detail.png"); }
 /* line 870, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(11):hover .membericnimg { content: url("../img/memberK_icn.png"); }
+.intro .membercontainer .membericn:nth-of-type(11):hover { content: url("../img/memberK_icn.png"); }
 /* line 874, ../scss/main.scss */
 .intro .membercontainer .membericn:nth-of-type(11):hover ~ .memberdetail { background: rgba(255, 255, 255, 0.5); }
 /* line 877, ../scss/main.scss */
-.intro .membercontainer .membericn:nth-of-type(11):hover ~ .memberdetail .memberdetailimg { content: url("../img/memberK_detail.png"); }
+.intro .membercontainer .membericn:nth-of-type(11):hover ~ .memberdetail { content: url("../img/memberK_detail.png"); }
 /* line 885, ../scss/main.scss */
 .intro .membercontainer .memberdetail { margin: 0 0 0 6rem; width: 54.5rem; }
 /* line 889, ../scss/main.scss */
