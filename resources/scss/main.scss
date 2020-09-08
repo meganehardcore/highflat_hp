@@ -10,7 +10,8 @@ html {
 .base {
   background: $gry;
   color: $blk;
-  font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Arial,
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   font-feature-settings: "palt";
   font-weight: 100;
   letter-spacing: 0.25rem;
@@ -404,7 +405,7 @@ html {
 }
 
 .photonavhead {
-  height: 8.0rem;
+  height: 8rem;
   margin: 0 7.5rem 3rem;
 
   .photonavheadimg {
@@ -437,30 +438,28 @@ html {
   .photonav {
     &:nth-of-type(1) {
       .photonavitem {
+        a {
+          &:hover {
+            display: block;
+            width: 100%;
+          }
+        }
+
         &:nth-of-type(1) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/vision_on.png);
-            }
+          a:hover {
+            content: url(../img/vision_on.png);
           }
         }
 
         &:nth-of-type(2) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/profile_on.png);
-            }
+          a:hover {
+            content: url(../img/profile_on.png);
           }
         }
 
         &:nth-of-type(3) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/office_on.png);
-            }
+          a:hover {
+            content: url(../img/office_on.png);
           }
         }
       }
@@ -468,21 +467,22 @@ html {
 
     &:nth-of-type(2) {
       .photonavitem {
+        a {
+          &:hover {
+            display: block;
+            width: 100%;
+          }
+        }
+
         &:nth-of-type(1) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/system_on.png);
-            }
+          a:hover {
+            content: url(../img/system_on.png);
           }
         }
 
         &:nth-of-type(2) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/engineering_on.png);
-            }
+          a:hover {
+            content: url(../img/engineering_on.png);
           }
         }
       }
@@ -490,21 +490,22 @@ html {
 
     &:nth-of-type(3) {
       .photonavitem {
+        a {
+          &:hover {
+            display: block;
+            width: 100%;
+          }
+        }
+
         &:nth-of-type(1) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/intro_on.png);
-            }
+          a:hover {
+            content: url(../img/intro_on.png);
           }
         }
 
         &:nth-of-type(2) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/events_on.png);
-            }
+          a:hover {
+            content: url(../img/events_on.png);
           }
         }
       }
@@ -512,21 +513,21 @@ html {
 
     &:nth-of-type(4) {
       .photonavitem {
+        a {
+          &:hover {
+            display: block;
+            width: 100%;
+          }
+        }
         &:nth-of-type(1) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/policy_on.png);
-            }
+          a:hover {
+            content: url(../img/policy_on.png);
           }
         }
 
         &:nth-of-type(2) {
-          .photonavimg {
-            &:hover {
-              display: block;
-              content: url(../img/recruit_on.png);
-            }
+          a:hover {
+            content: url(../img/recruit_on.png);
           }
         }
       }
@@ -588,7 +589,6 @@ html {
   padding: 0;
 
   .pointlistitem {
-
     &:before {
       content: "・";
       margin: 0 0.5rem 0 0;
@@ -707,176 +707,121 @@ html {
       /* 社員紹介切り替え */
       &:nth-of-type(1) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberA_icn.png");
-          }
+          content: url("../img/memberA_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberA_detail.png");
-            }
+            content: url("../img/memberA_detail.png");
           }
         }
       }
 
       &:nth-of-type(2) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberB_icn.png");
-          }
+          content: url("../img/memberB_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberB_detail.png");
-            }
+            content: url("../img/memberB_detail.png");
           }
         }
       }
 
       &:nth-of-type(3) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberC_icn.png");
-          }
+          content: url("../img/memberC_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberC_detail.png");
-            }
+            content: url("../img/memberC_detail.png");
           }
         }
       }
 
       &:nth-of-type(4) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberD_icn.png");
-          }
+          content: url("../img/memberD_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberD_detail.png");
-            }
+            content: url("../img/memberD_detail.png");
           }
         }
       }
 
       &:nth-of-type(5) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberE_icn.png");
-          }
+          content: url("../img/memberE_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberE_detail.png");
-            }
+            content: url("../img/memberE_detail.png");
           }
         }
       }
 
       &:nth-of-type(6) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberF_icn.png");
-          }
+          content: url("../img/memberF_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberF_detail.png");
-            }
+            content: url("../img/memberF_detail.png");
           }
         }
       }
 
       &:nth-of-type(7) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberG_icn.png");
-          }
+          content: url("../img/memberG_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberG_detail.png");
-            }
+            content: url("../img/memberG_detail.png");
           }
         }
       }
 
       &:nth-of-type(8) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberH_icn.png");
-          }
+          content: url("../img/memberH_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberH_detail.png");
-            }
+            content: url("../img/memberH_detail.png");
           }
         }
       }
 
       &:nth-of-type(9) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberI_icn.png");
-          }
+          content: url("../img/memberI_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberI_detail.png");
-            }
+            content: url("../img/memberI_detail.png");
           }
         }
       }
 
       &:nth-of-type(10) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberJ_icn.png");
-          }
+          content: url("../img/memberJ_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberJ_detail.png");
-            }
+            content: url("../img/memberJ_detail.png");
           }
         }
       }
 
       &:nth-of-type(11) {
         &:hover {
-          .membericnimg {
-            content: url("../img/memberK_icn.png");
-          }
+          content: url("../img/memberK_icn.png");
 
           & ~ .memberdetail {
             background: rgba(255, 255, 255, 0.5);
-
-            .memberdetailimg {
-              content: url("../img/memberK_detail.png");
-            }
+            content: url("../img/memberK_detail.png");
           }
         }
       }
@@ -900,7 +845,6 @@ html {
 .policy {
   margin: 0 0 10rem;
 }
-
 
 .recruitment {
   margin: 0 0 7.5rem;
