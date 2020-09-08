@@ -1,0 +1,258 @@
+@import "compass";
+@import "var";
+
+@media screen and (max-width:576px) {
+  .container {
+    overflow: hidden;
+  }
+
+  .head {
+    background-size: contain;
+    padding: 2rem;
+
+    .companyname {
+      margin: 0 0 1.5rem;
+      padding: 17rem 0 0;
+
+      .companynameimg {
+        width: 50%;
+      }
+    }
+
+    .navcontainer {
+      display: none;
+    }
+
+    .sns {
+      margin: 0;
+
+      .snslink {
+        margin-left: 1rem;
+
+        .snsimg {
+          width: 3rem;
+        }
+      }
+    }
+  }
+
+  .background {
+    padding: 5rem 0 0;
+
+    .contents {
+      margin: 0 0 6rem;
+    }
+  }
+
+  .secondhead {
+    margin: 0 7.5rem 1.2rem;
+  }
+
+  .thirdhead {
+    height: 4rem;
+    margin: 0 0 2.2rem;
+
+    &.threeline {
+      height: 6.1rem;
+    }
+  }
+
+  .fourthhead {
+    height: 1.4rem;
+    margin: 0 0 3rem;
+
+    .fourthheadimg {
+      height: 1.4rem;
+      vertical-align: top;
+    }
+  }
+
+  .basiclist {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+
+    .basiclistitem {
+      margin: 0 0 1.4rem;
+    }
+  }
+
+  .pointlist {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+
+    .pointlistitem {
+      text-indent: -1.4rem;
+      padding-left: 0 0 0 1rem;
+    }
+  }
+
+  .maintext {
+    font-size: 1.4rem;
+    margin: 0 2rem 2rem;
+  }
+
+  .nobreak {
+    display: none;
+  }
+
+  .spnone {
+    display: none;
+  }
+
+  .photonavhead {
+    height: 3rem;
+    margin: 0 1.8rem 1.5rem;
+  }
+
+  .photonav {
+    margin: 0 0 3.5rem;
+  }
+
+  .googlemap {
+    height: 2rem;
+  }
+
+  .vision {
+    margin: 0 0 5rem;
+  }
+
+  .profile {
+    margin: 0 0 5rem;
+
+    .profilelist {
+      font-size: 1.4rem;
+      line-height: 2.8rem;
+      margin: 0 2rem;
+    }
+  }
+
+  .access {
+    margin: 0 0 5rem;
+
+    .map {
+      margin: 0 2rem 1rem;
+    }
+
+    .googlemap {
+      margin: 0 2rem;
+    }
+  }
+
+  .office {
+    margin: 0 0 5rem;
+  }
+
+  .systemdev {
+    margin: 0 0 5rem;
+  }
+
+  .engineer {
+
+    .servicelist {
+      font-size: 1.5rem;
+      line-height: 3rem;
+      margin: 0 5rem 0 2rem;
+
+      .servicelistitem {
+        margin: 0 0 3rem;
+        padding: 0 0 0 3rem;
+
+        span {
+          margin: 1rem 0 0;
+        }
+      }
+    }
+  }
+
+  .member {
+    display: none;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .events {
+    display: none;
+  }
+
+  .policy {
+    margin: 0 0 5rem;
+  }
+
+  .recruitment {
+    margin: 0 0 5rem;
+
+    .recruitdetail {
+      font-size: 1.4rem;
+      margin: 0 2rem;
+      padding: 0 2rem;
+
+      .notes {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+      }
+
+      .contactbtn {
+        height: 2rem;
+      }
+    }
+  }
+
+  .contact {
+    .contacttext {
+      font-size: 2rem;
+    }
+
+    .address {
+      padding: 2rem;
+
+      .contactformbtn {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin: 0 0 1.5rem;
+        padding: 0.5rem 1rem 1rem;
+
+        .contactformicn {
+          font-size: 3.5rem;
+          margin-right: 0.5rem;
+        }
+      }
+
+      .tel {
+        font-size: 3rem;
+
+        .tellink {
+          &:before {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .mail {
+        .mailtext {
+          margin: 0 0 1rem;
+        }
+
+        .maillink {
+          font-size: 3rem;
+
+          &:before {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .topbutton {
+    bottom: 10rem;
+    margin-left: calc(100% - 7.9rem);
+
+    .topbuttonlink {
+      height: 6rem;
+      margin: 4rem 0 1rem;
+    }
+  }
+}
